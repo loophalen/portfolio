@@ -32,10 +32,29 @@ p{
 }
 
 .grid{
-    display: gird; 
+    display: grid; 
     grid-template-columns: repeat(4, 1fr); 
     grid-column-gap: 35px; 
     grid-row-gap: 35px; 
     margin: 27px; 
     margin-bottom: 124px; 
 }
+
+.height {
+    height: 72vh; 
+    margin-top: 30px; 
+}
+
+.title{
+    grid-column: 1; 
+}
+
+/* .title p{
+    position: fixed; 
+} */
+
+.about{
+    grid-column: 3/5; 
+    height: 55vh; 
+}
+
