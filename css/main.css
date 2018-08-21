@@ -30,7 +30,7 @@ body{
     background: #fff;
     color: #151515; 
     font-size: 16px; 
-    line-height: 30px; 
+    min-height: 30px; 
     font-family: 'Cutive Mono', monospace;  
 }
 
