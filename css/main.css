@@ -1,5 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
 
+html {
+    height:100%;
+  }
+
+  .bg {
+    animation:slide 6s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #FFD8D9 50%, #fff 50%);
+    bottom:0;
+    left:-35%;
+    opacity:.3;
+    position:fixed;
+    right:-25%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  .bg3 {
+    animation-duration:5s;
+  }
+
 body{
     padding: 0; 
     margin: 0; 
@@ -8,6 +32,7 @@ body{
     font-size: 16px; 
     line-height: 30px; 
     font-family: 'Cutive Mono', monospace;
+   
 }
 
 .content-wrapper{
@@ -17,6 +42,7 @@ body{
     height: 100;
     text-align: center; 
     z-index: 1; 
+    
 
 }
 
@@ -27,6 +53,7 @@ body{
     transform: translate(-50%, -50%);
     text-align: left; 
     vertical-align: middle; 
+    transform:translate(-50%, -50%);
 }
 
 p {
@@ -55,6 +82,12 @@ h2 {
     margin: 0;
     font-size: .95em;
   }
+
+  .p50 {
+    opacity: 0.5;
+    margin-left: -1px;
+    margin-top: -12px;
+}
 
   ul li {
     position: relative;
@@ -93,5 +126,14 @@ a:hover {
       font-size: 32px;
       line-height: 60px;
     }
+  }
 
-
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    0% {
+      transform:translateX(25%);
+    }
+  }
+      
