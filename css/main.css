@@ -106,7 +106,7 @@ a:hover {
 @media only screen and (min-width: 768px) {
     body {
       font-size: 22px;
-      line-height: 48px;
+      min-height: 48px;
     }
     .main-content {
       width: 80%;
@@ -115,13 +115,13 @@ a:hover {
   @media only screen and (min-width: 1200px) {
     body {
       font-size: 26px;
-      line-height: 48px;
+      min-height: 48px;
     }
   }
   @media only screen and (min-width: 1824px) {
     body {
       font-size: 32px;
-      line-height: 60px;
+      min-height: 60px;
     }
   }
 
